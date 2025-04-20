@@ -1,0 +1,11 @@
+__pycache__
+
+chromadb/*
+!chromadb/.gitkeep
+
+.venv
+
+preprocessed_docs/*
+!preprocessed_docs/.gitkeep
+
+test_rag.py

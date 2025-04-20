@@ -1,0 +1,16 @@
+langchain
+langchain-community
+langsmith
+python-dotenv
+fastapi
+uvicorn
+langchain-groq
+pinecone
+PyMuPDF
+langchain-chroma
+langchain-huggingface
+pypdf
+rank_bm25
+cohere
+langchain-cohere
+streamlit
