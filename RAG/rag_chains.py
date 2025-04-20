@@ -30,7 +30,6 @@ class Prompts:
         Instructions:
         - If the context clearly contains information that answers the question, provide a concise and accurate response.
         - If the context contains information that partially answers the question, provide a response that reflects that partial information.
-        - If the context does NOT contain the necessary information to answer the question, respond exactly with: "Sorry, I cannot answer that at the moment."
 
         Important:
         - Do not use any external knowledge.
