@@ -64,7 +64,8 @@ if query:
         )
         bot_response = response.text.strip()
     except Exception as e:
-        bot_response = f"❌ Error: {str(e)}"
+        print(f"Error: {e}")
+        bot_response = f"Something went wrong. Try changing the input parameters in side bar."
 
     # Store bot message
     st.session_state.messages.append({"role": "bot", "content": bot_response})

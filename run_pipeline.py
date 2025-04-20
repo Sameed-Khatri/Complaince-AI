@@ -58,8 +58,8 @@ async def main():
     ]
 
     await run_custom_preprocessing_EUAI(csv)
-    # await run_custom_preprocessing_gdpr(jsonl)
-    # await run_basic_preprocessing(pdfs)
+    await run_custom_preprocessing_gdpr(jsonl)
+    await run_basic_preprocessing(pdfs)
 
 
 if __name__ == "__main__":
